@@ -18,7 +18,7 @@ function AddTodo() {
       <input
         type="text"
         placeholder=" Enter a Todo..."
-        className="w-full border border-black/10 rounded-l-lg px-3 outline-none duration-150 bg-blue-500 py-1.5 text-white"
+        className="w-full border border-black/10 rounded-l-lg px-3 outline-none duration-150 bg-blue-500/80 py-1.5 text-white placeholder:text-gray-400"
         value={input}
         onChange={(e) => setInput(e.target.value)}
       />
